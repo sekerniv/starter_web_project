@@ -1,0 +1,9 @@
+.gradle/
+build/
+
+# macOS and Linux
+.DS_Store
+
+# Windows
+Thumbs.db
+gradle/wrapper/gradle-wrapper.jar
