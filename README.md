@@ -1,6 +1,7 @@
 # Starter Web Project
 
-This is a minimal Spring Boot application that displays a simple "Hello, World" message.
+This is a minimal Spring Boot application that displays a simple greeting using a
+Thymeleaf template. By default it shows "Hello World, John".
 
 ## Requirements
 
@@ -21,10 +22,4 @@ Then start the server:
 ./gradlew bootRun
 ```
 
-Once started, open your browser and visit [http://localhost:8080](http://localhost:8080) to see the message.
-
-## Running tests
-
-```bash
-./gradlew test
-```
+Once started, open your browser and visit [http://localhost:8080](http://localhost:8080) to see the greeting page.
